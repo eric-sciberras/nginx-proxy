@@ -1,4 +1,4 @@
-FROM  arm32v7/nginx:1.14.1
+FROM  arm32v7/nginx:1.17.8
 LABEL maintainer="Jason Wilder mail@jasonwilder.com"
 LABEL maintainer="Leonardo Amaral <docker@leonardoamaral.com.br>"
 COPY qemu-arm-static /usr/bin
